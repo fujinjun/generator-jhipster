@@ -325,6 +325,8 @@ module.exports = class JHipsterClientGenerator extends BaseBlueprintGenerator {
             return writeReactFiles.call(this, useBlueprints);
           case VUE:
             return writeVueFiles.call(this, useBlueprints);
+          case ANTD:
+            return writeVueFiles.call(this, useBlueprints);
           default:
           // do nothing by default
         }

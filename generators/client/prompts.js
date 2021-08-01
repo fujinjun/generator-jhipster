@@ -23,7 +23,7 @@ const clientFrameworks = require('../../jdl/jhipster/client-framework-types');
 
 const NO_CLIENT_FRAMEWORK = clientFrameworks.NO;
 
-const { ANGULAR, REACT, VUE } = constants.SUPPORTED_CLIENT_FRAMEWORKS;
+const { ANGULAR, REACT, VUE ,ANTD} = constants.SUPPORTED_CLIENT_FRAMEWORKS;
 
 module.exports = {
   askForModuleName,
@@ -56,6 +56,10 @@ async function askForClient() {
     {
       value: VUE,
       name: 'Vue',
+    },   
+    {
+      value: ANTD,
+      name: 'Antd',
     },
     {
       value: 'no',

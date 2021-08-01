@@ -62,6 +62,7 @@
     "prettier:check": "prettier --check \"{,**/}*.{js,cjs,json,md,yml,java}\"",
     "prettier:format": "prettier --write \"{,**/}*.{js,cjs,json,md,yml,java}\"",
     "pretest": "npm run lint",
+    "test:antd": "mocha \"test/client/antd.spec.js\" --no-insight --forbid-only --parallel",
     "test": "mocha test \"generators/**/*.spec.js\" --no-insight --forbid-only --parallel",
     "update-snapshots": "mocha test \"generators/**/*.spec.js\" --no-insight --parallel --updateSnapshot"
   },

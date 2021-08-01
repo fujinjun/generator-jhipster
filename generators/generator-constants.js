@@ -18,7 +18,7 @@
  */
 const validationOptions = require('../jdl/jhipster/validations');
 const databaseTypes = require('../jdl/jhipster/database-types');
-const { ANGULAR_X, REACT, VUE } = require('../jdl/jhipster/client-framework-types');
+const { ANGULAR_X, REACT, VUE,ANTD } = require('../jdl/jhipster/client-framework-types');
 const commonPackageJson = require('./common/templates/package.json');
 
 // Version of Java
@@ -114,6 +114,7 @@ const SUPPORTED_CLIENT_FRAMEWORKS = {
   ANGULAR: ANGULAR_X,
   REACT,
   VUE,
+  ANTD,
 };
 
 // documentation constants

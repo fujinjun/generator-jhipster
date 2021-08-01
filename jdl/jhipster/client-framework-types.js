@@ -22,6 +22,7 @@ const Types = {
   ANGULAR: 'angular',
   REACT: 'react',
   VUE: 'vue',
+  ANTD: 'antd',
   SVELTE: 'svelte',
   NO: 'no',
 };
